@@ -1,0 +1,44 @@
+.registerPage {
+    .bg-registerPage {
+        background: url(../../assets/register.png);
+        background-size: cover;
+        background-position: center;
+        display: none;
+    }
+
+    .bg-login {
+        background: url(../../assets/loginImgBg.jpg);
+        background-size: cover;
+        background-position: center;
+        display: none;
+
+    }
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .registerPage {
+
+
+
+        .kanan {
+
+            max-width: 75%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .registerPage {
+        max-width: 100%;
+
+
+        .bg-registerPage {
+            display: block;
+        }
+    }
+}
